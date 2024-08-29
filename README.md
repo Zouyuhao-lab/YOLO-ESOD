@@ -12,10 +12,11 @@ This repository contains a YOLO-ESOD model for object detection tasks. Follow th
    pip install -r requirements.txt
 3. Dataset
    cat data.txt
-4. Running the Model
+   our best weights also in there
+5. Running the Model
    dior:python detect.py --weights dior_best.pt --img 640 --conf 0.5 --source ./data
    custom:python detect.py --weights dior_best.pt --img 640 --conf 0.5 --source ./data
-5. training the Model
+6. training the Model
    use yolo-esod.yaml
    
    
